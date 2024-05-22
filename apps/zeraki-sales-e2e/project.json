@@ -1,0 +1,10 @@
+{
+  "name": "zeraki-sales-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/zeraki-sales-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["zeraki-sales"],
+  "// targets": "to see all targets run: nx show project zeraki-sales-e2e --web",
+  "targets": {}
+}

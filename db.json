@@ -10,4 +10,27 @@
   "profile": {
     "name": "typicode"
   }
+  ,
+  "invoices": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "collections": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "revenue": [
+    { "id": "1", "product": "zeraki analytics", "amount": "4000" },
+    { "id": "2", "product": "zeraki finance", "amount": "10000" },
+    { "id": "3", "product": "zeraki timetable", "amount": "60000" }
+  ],
+  "signups": [
+    { "id": "1", "product": "zeraki analytics", "signups": "40" },
+    { "id": "2", "product": "zeraki finance", "signups": "100" },
+    { "id": "3", "product": "zeraki timetable", "signups": "600" }
+  ],
+  "bounced_cheques": {
+    "total": "5"
+  }
+
 }

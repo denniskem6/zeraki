@@ -46,4 +46,12 @@ export class ZerakiService{
     return this.httpClient.get('http://localhost:3000/ZTtargetsVisualization')
   }
 
+  schooldata(){
+    return this.httpClient.get('http://localhost:3000/school')
+  }
+
+  invoicedata(){
+    return this.httpClient.get('http://localhost:3000/invoices?_sort=due_date')
+  }
+
 }

@@ -1,1 +1,98 @@
-invoices works
+<div class="container-fluid">
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Zeraki Take-Home Assignment</span>
+    </div>
+  </nav>
+</div>
+
+<div class="container-fluid pt-2">
+  <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+
+              <ul class="nav nav-pills flex-column mb-sm-auto mb-2 align-items-center align-items-sm-start" id="menu">
+                <li>
+                  <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">Dashboard</span>
+                </a>
+                  <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                      <li class="w-100">
+                          <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Top Card Metrics </span></a>
+                      </li>
+                      <li>
+
+                          <a [routerLink]="['/sales_dasboard/targets_visualization']" routerLinkActive="router-link-active" class="nav-link px-0"> <span class="d-none d-sm-inline">Targets Visualization</span></a>
+                      </li>
+                      <li>
+                        <a [routerLink]="['/sales_dasboard/signups_overview']" routerLinkActive="router-link-active" class="nav-link px-0"> <span class="d-none d-sm-inline">Signups overview</span></a>
+                    </li>
+                    <li>
+                      <a [routerLink]="['/sales_dasboard/upcoming_invoices']" routerLinkActive="router-link-active" class="nav-link px-0"> <span class="d-none d-sm-inline">Upcoming Invoices</span></a>
+                  </li>
+                  </ul>
+              </li>
+              </ul>
+              <ul class="nav nav-pills flex-column mb-sm-auto align-items-center align-items-sm-start" id="menu">
+                <li>
+                  <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">School Management</span>
+                </a>
+                  <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                      <li class="w-100">
+                          <a [routerLink]="['/sales_dasboard/schools']" routerLinkActive="router-link-active" class="nav-link px-0"> <span class="d-none d-sm-inline">Schools </span></a>
+                      </li>
+                      <li>
+                          <a [routerLink]="['/sales_dasboard/invoices']" routerLinkActive="router-link-active" class="nav-link px-0"> <span class="d-none d-sm-inline">Invoices </span></a>
+                      </li>
+                      <li>
+                        <a [routerLink]="['/sales_dasboard/collections']" routerLinkActive="router-link-active" class="nav-link px-0"> <span class="d-none d-sm-inline">Collections</span></a>
+                      </li>
+                  </ul>
+              </li>
+              </ul>
+
+          </div>
+      </div>
+      <div class="col py-3">
+        <div class="col ps-md-2 pt-2">
+          <a href="" data-bs-target="#sidebar" data-bs-toggle="collapse"
+              class="border rounded-3 p-1 text-decoration-none"><i class="bi bi-list"></i></a>
+          <div class="page-header pt-3">
+              <h2>Invoices Dashboard</h2>
+          </div>
+          <hr>
+
+          <div class="mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                      <th scope="col">invoice number </th>
+                      <th scope="col">school name</th>
+                      <th scope="col">Amount due</th>
+                      <th scope="col">Due date</th>
+                      <th scope="col">invoice item</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @for ( datainvoice of invoicedata; track datainvoice.id) {
+                    <tr>
+                      <td>{{datainvoice.invoice_number}}</td>
+                      <td>{{datainvoice.school_name}}</td>
+                      <td>{{datainvoice.Amount_due}}</td>
+                      <td>{{datainvoice.due_date}}</td>
+                      <td>{{datainvoice.product}}</td>
+                  </tr>
+                  }
+                   
+                  
+                </tbody>
+            </table>
+        </div>
+
+
+
+      </div>
+      </div>
+  </div>
+</div>

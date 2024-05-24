@@ -75,7 +75,7 @@ ZTgraphdata:any[]=[];
       data: {
         labels: labeldata,
         datasets: [{
-          label: 'target',
+          label: '',
           data: graphdata,
           borderWidth: 1
         }]

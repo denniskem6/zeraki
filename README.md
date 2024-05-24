@@ -7,6 +7,9 @@
 ## Versions Used
 Nx "@nx/angular": "19.0.6"
 
+## setting up the project
+To set up the project you can use 
+
 ## To Start up Database
 run npx nx json-server --watch db.json
 

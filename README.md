@@ -8,9 +8,9 @@
 Nx "@nx/angular": "19.0.6"
 
 ## setting up the project
-To set up the project you can use 
+To set up the project you can git clone through the link https://github.com/denniskem6/zeraki.git
 
-## To Start up Database
+## To Start up the Database
 run npx nx json-server --watch db.json
 
 ## Integrate with editors
@@ -22,6 +22,7 @@ comes with a LSP for Vim users.
 ## Start the application
 
 Run `npx nx serve zeraki-sales` to start the development server. Happy coding!
+The application will be listening on localost 4200. This will ive you access to the application hence you will be able to naviate over various dasboards
 
 ## Build for production
 

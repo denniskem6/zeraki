@@ -22,7 +22,7 @@ comes with a LSP for Vim users.
 ## Start the application
 
 Run `npx nx serve zeraki-sales` to start the development server. Happy coding!
-The application will be listening on localost 4200. This will ive you access to the application hence you will be able to naviate over various dasboards
+The application will be listening on localost 4200. This will give you access to the application hence you will be able to navigate over various dashboards
 
 ## Build for production
 

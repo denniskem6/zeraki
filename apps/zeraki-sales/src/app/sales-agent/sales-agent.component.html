@@ -10,7 +10,7 @@
   <div class="row flex-nowrap">
       <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
           <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-              
+
               <ul class="nav nav-pills flex-column mb-sm-auto mb-2 align-items-center align-items-sm-start" id="menu">
                 <li>
                   <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
@@ -21,7 +21,7 @@
                           <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Top Card Metrics </span></a>
                       </li>
                       <li>
-                         
+
                           <a [routerLink]="['/sales_dasboard/targets_visualization']" routerLinkActive="router-link-active" class="nav-link px-0"> <span class="d-none d-sm-inline">Targets Visualization</span></a>
                       </li>
                       <li>
@@ -51,7 +51,7 @@
                   </ul>
               </li>
               </ul>
-              
+
           </div>
       </div>
       <div class="col py-3">
@@ -67,8 +67,10 @@
                   <div class="card shadow">
                       <div class="card-body text-start">
                           <h5 class="card-title">Collections </h5>
-                          <p class="card-text"><i class="bi bi-people mr-3"></i>600</p>
-                          
+                          <p class="card-text"><i class="bi bi-people mr-3"></i>@for (collection of collections; track collection.id) {
+                            {{collection.total}}
+                          }</p>
+
                       </div>
                   </div>
               </div>
@@ -76,8 +78,10 @@
                   <div class="card shadow">
                       <div class="card-body text-start">
                           <h5 class="card-title">Bounced Cheques</h5>
-                          <p class="card-text"><i class="bi bi-people mr-3"></i>70</p>
-                          
+                          <p class="card-text"><i class="bi bi-people mr-3"></i>@for (post of data; track post.id) {
+                            {{post.total}}
+                          }</p>
+
                       </div>
                   </div>
               </div>

@@ -1,23 +1,11 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-  ,
   "invoices": [
     { "id": "1", "text": "a comment about post 1", "postId": "1" },
     { "id": "2", "text": "another comment about post 1", "postId": "1" }
   ],
   "collections": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    { "id": "1", "total": "5005"}
+
   ],
   "revenue": [
     { "id": "1", "product": "zeraki analytics", "amount": "4000" },
@@ -29,8 +17,36 @@
     { "id": "2", "product": "zeraki finance", "signups": "100" },
     { "id": "3", "product": "zeraki timetable", "signups": "600" }
   ],
-  "bounced_cheques": {
-    "total": "5"
-  }
+  "bounced_cheques": [{"id":"1","total": "5"}],
+
+  "ZAbarsignups": [
+    { "id": "1", "SchoolType": "primary", "signups": "400" },
+    { "id": "2", "SchoolType": "secondary", "signups": "500" },
+    { "id": "3", "SchoolType": "IGCSE", "signups": "250" }
+  ],
+
+  "ZFbarsignups": [
+    { "id": "1", "SchoolType": "primary", "signups": "9000" },
+    { "id": "2", "SchoolType": "secondary", "signups": "1500" },
+    { "id": "3", "SchoolType": "IGCSE", "signups": "2150" }
+  ],
+  "ZTbarsignups": [
+    { "id": "1", "SchoolType": "primary", "signups": "4050" },
+    { "id": "2", "SchoolType": "secondary", "signups": "5500" },
+    { "id": "3", "SchoolType": "IGCSE", "signups": "2550" }
+  ],
+
+  "ZAtargetsVisualization": [
+    { "id": "1", "target": "goal for signups", "total": "40000" },
+    { "id": "2", "target": "achieved signups", "total": "5000" }
+  ],
+  "ZFtargetsVisualization": [
+    { "id": "1", "target": "goal for signups", "total": "19000" },
+    { "id": "2", "target": "achieved signups", "total": "17500" }
+  ],
+  "ZTtargetsVisualization": [
+    { "id": "1", "target": "goal for signups", "total": "40500" },
+    { "id": "2", "target": "achieved signups", "total": "11500" }
+  ]
 
 }

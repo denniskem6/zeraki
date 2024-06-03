@@ -9,6 +9,7 @@ Nx "@nx/angular": "19.0.6"
 
 ## setting up the project
 To set up the project you can git clone through the link https://github.com/denniskem6/zeraki.git
+open the terminal and cd to the project zeraki then run `npm install` to install all the dependencies
 
 ## To Start up the Database
 run npx nx json-server --watch db.json

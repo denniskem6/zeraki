@@ -4,6 +4,7 @@ import { Route } from '@angular/router';
 export const appRoutes: Route[] = [
 
   //declaring app routes, if path is fully empty we redirect to sales dashboard
+  // used lazy loading for optimization of the application
   {
     path:'',
     pathMatch:'full',

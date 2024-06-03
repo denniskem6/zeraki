@@ -21,7 +21,7 @@
           "apps/zeraki-sales/src/assets"
         ],
         "styles": ["apps/zeraki-sales/src/styles.scss"],
-        "scripts": [],
+        "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"],
         "server": "apps/zeraki-sales/src/main.server.ts",
         "prerender": true,
         "ssr": {

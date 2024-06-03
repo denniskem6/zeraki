@@ -3,9 +3,9 @@
     { "id": "1", "invoice_number": "qwerty", "school_name": "starehe center","product": "zeraki analytics","Amount_due": "7000","due_date": "20-08-2024"},
     { "id": "2", "invoice_number": "mnbvxO", "school_name": "starehe center","product": "zeraki analytics","Amount_due": "8000","due_date": "19-07-2024"},
     { "id": "3", "invoice_number": "qTYJBT", "school_name": "maranda school","product": "zeraki finance","Amount_due": "20000","due_date": "25-08-2024"},
-    { "id": "4", "invoice_number": "cTKInM", "school_name": "laiser hill","product": "zeraki timetable","Amount_due": "15000","due_date": "22-06-2024"},
-    { "id": "5", "invoice_number": "WERuyl", "school_name": "laiser hill","product": "zeraki timetable","Amount_due": "5000","due_date": "26-09-2024"}
-    
+    { "id": "4", "invoice_number": "cTKInM", "school_name": "laiser hill","product": "zeraki timetable","Amount_due": "15000","due_date": "02-06-2024"},
+    { "id": "5", "invoice_number": "WERuyl", "school_name": "laiser hill","product": "zeraki timetable","Amount_due": "5000","due_date": "18-09-2024"}
+
   ],
   "school": [
     { "id": "1", "name": "starehe center", "type": "secondary school","product": "zeraki analytics","county": "Nairobi","registeration_date": "11-05-2018","contact": "0712345678", "balance": "15000"},
@@ -13,7 +13,7 @@
     { "id": "3", "name": "maranda school", "type": "IGCSE","product": "zeraki finance","county": "uasin gishu","registeration_date": "25-07-2022","contact": "0711111111", "balance": "0"}
   ],
   "collections": [
-    { "id": "1", "total": "5005"}
+    { "id": "1", "total": "4590"}
 
   ],
   "revenue": [
